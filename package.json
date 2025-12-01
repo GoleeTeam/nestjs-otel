@@ -1,5 +1,5 @@
 {
-  "name": "nestjs-otel",
+  "name": "@golee/nestjs-otel",
   "version": "6.2.0",
   "description": "NestJS OpenTelemetry Library",
   "main": "lib/index.js",

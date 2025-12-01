@@ -35,7 +35,7 @@ A full working examples are available. This includes a nestjs application fully 
 ## Installation
 
 ```bash
-npm i nestjs-otel @opentelemetry/sdk-node --save
+npm i @golee/nestjs-otel @opentelemetry/sdk-node --save
 ```
 
 ## Setup
