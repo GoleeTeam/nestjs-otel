@@ -25,9 +25,7 @@ describe('Api Metrics Middleware', () => {
       preventServerStart: true,
     });
 
-    meterProvider = new MeterProvider();
-    meterProvider.addMetricReader(promExporter);
-
+    meterProvider = new MeterProvider({ readers: [promExporter] });
     metrics.setGlobalMeterProvider(meterProvider);
 
     meterData.clear();
